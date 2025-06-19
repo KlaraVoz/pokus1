@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio všeobecné</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!--nav označuje navigáciu web stránky-->
+    <!-- class používame na označenie skupiny prvkov na stránke pre ktoré chceme nastaviť jednotný štýl-->
+    <nav class="navigacia">
+        <!--navigácie sa veľmi často definujú pomocou nečíslovaného zoznamu, jednoduchšie sa pre ne nastavuje štýl-->
+        <ul>
+            <!--keď chceme prepojiť tlačitko navigácie na konkrétnu sekciu stránky používame mriežku a názov ktorý sme si pomocou 'id' atribútu nastavili pre danú sekciu. 'a href' funguje ako klasický link, no prepája nás na sekciu stránky, nie externú stránku-->
+            <li><a href="#domov">Domov</a></li>
+            <li><a href="#omne">O mne</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+    <!--'section' používame na oddelenie sekcií obsahu-->
+    <!--'id' slúži na označenie konkrétneho prvku na stránke, 'id' hodnotu (názov) vpisujeme do 'a href', takýmto spôsobom zabezpečíme, že bude navigácia fungovať -->
+    <section id="domov">
+        <h2>Domov</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis corporis expedita cum recusandae est at. Cumque nobis nam sequi, dolores eaque ea voluptatibus expedita numquam odio odit, consequatur, alias et?</p>
+    </section>
+    <section id="omne">
+        <h2>O mne</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, nisi ex molestiae eos quae corrupti excepturi unde ducimus voluptatum tempora id? Odio recusandae eum, ipsum distinctio quis dolores nisi explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse qui quos nobis et atque facere veritatis minus harum, ea, deserunt dolor temporibus incidunt est hic odit doloremque? Deserunt, expedita ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, architecto voluptatem? Minus asperiores quos quam fuga sit commodi ducimus, numquam qui dolorem dolorum. Cumque quibusdam maiores provident perferendis error numquam.
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, nisi ex molestiae eos quae corrupti excepturi unde ducimus voluptatum tempora id? Odio recusandae eum, ipsum distinctio quis dolores nisi explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse qui quos nobis et atque facere veritatis minus harum, ea, deserunt dolor temporibus incidunt est hic odit doloremque? Deserunt, expedita ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, architecto voluptatem? Minus asperiores quos quam fuga sit commodi ducimus, numquam qui dolorem dolorum. Cumque quibusdam maiores provident perferendis error numquam.
+           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, nisi ex molestiae eos quae corrupti excepturi unde ducimus voluptatum tempora id? Odio recusandae eum, ipsum distinctio quis dolores nisi explicabo!
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse qui quos nobis et atque facere veritatis minus harum, ea, deserunt dolor temporibus incidunt est hic odit doloremque? Deserunt, expedita ipsam!
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, architecto voluptatem? Minus asperiores quos quam fuga sit commodi ducimus, numquam qui dolorem dolorum. Cumque quibusdam maiores provident perferendis error numquam.</p>
+    </section>
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Id necessitatibus aperiam repellat reiciendis unde animi explicabo minus sunt nemo sint, <br> natus praesentium tempora sed minima aliquid velit omnis laudantium hic?</p>
+    </section>
+</body>
+</html>
